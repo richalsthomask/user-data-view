@@ -1,0 +1,63 @@
+#card1{
+    height:300px;
+    width:47.5%;
+    float:left;
+    margin:1%;
+    font-size:20px;
+    background-color:rgba(255,255,255,.6);
+    border-radius:10px;
+}
+
+.textline{
+    margin:15px;
+    
+}
+
+.textline input{
+    background-color:rgba(255,255,255,0);
+    border:0;
+    font-size:18px;
+}
+
+.textline input:focus{outline:none}
+
+#deletebutton{
+    float:right;
+    background-color:red;
+    color:white;
+    border-radius:5px;
+    box-shadow:5px 5px 3px grey;
+    cursor:pointer;
+}
+
+#deletebutton:hover{
+         box-shadow:4px 4px 3px grey;
+         background-color:rgb(223, 6, 6);
+}
+
+#updatebutton{
+    float:right;
+    background-color:white;
+    border-radius:5px;
+    box-shadow:5px 5px 3px grey;
+    color:green;
+    cursor:pointer;
+}
+
+#updatebutton:hover{
+    box-shadow:4px 4px 3px grey;
+    background-color:rgb(195, 207, 196);
+}
+
+#add{
+    background-color:rgba(255,255,255,.6);
+    border-radius:50%;
+    height:10%;
+    width:10%;
+    margin:0px auto;
+    transition:background-color 1s;
+}
+
+#add:hover{
+    background-color:white;
+}
